@@ -71,6 +71,30 @@ else:
   print("wrong password, try again.")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  number = int(input("Enter a number:"))
+
+if number%5 == 0:
+    print("The number is divisible by 5")
+    print("the number is multiple of 5")
+else:
+    print("the number is not divisible by 5 " \
+    "not multiple of 5")
+    
+
+
+
 elif color =="yellow" : 
     print("look")
 elif color =="green" : 
