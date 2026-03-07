@@ -29,6 +29,21 @@ color = input("enter color gandu: ")
 
 if color =="red" :
     print("stop")
+
+
+
+
+
+
+    age = int(input("enter your age bhaisaab: "))
+if (age <13):
+    print("you re a kid to tu baccha hai")
+elif (age >=13  and age < 18) :
+    print("your a teenager," \
+    " to tu ek najuan hai to kaam kar jake")
+else:
+    print("you are an adult ," \
+    " to tu to gaya agar tere pass koi job nahi hai gaandu")   
 elif color =="yellow" : 
     print("look")
 elif color =="green" : 
