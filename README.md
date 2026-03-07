@@ -98,6 +98,23 @@ else:
 elif color =="yellow" : 
     print("look")
 elif color =="green" : 
+
+
+
+
+
+
+
+
+
+n = int(input("Enter a number:"))
+
+if n%2 == 0:
+    print("The number is even")
+else:
+    print("the number is odd")
+    
+
     print("go")
 else: 
     print("wrong color")
