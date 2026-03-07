@@ -44,6 +44,33 @@ elif (age >=13  and age < 18) :
 else:
     print("you are an adult ," \
     " to tu to gaya agar tere pass koi job nahi hai gaandu")   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    username = input("enter your username: ")
+password = input("enter your password: ")
+
+if (username == "admin" and password == "pass"):
+  print("log in successful!")
+
+elif (username != "admin"):
+  print("wrong username dala hai be")
+  
+
+else:
+  print("wrong password, try again.")
+
+
 elif color =="yellow" : 
     print("look")
 elif color =="green" : 
