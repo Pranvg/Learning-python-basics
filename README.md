@@ -161,3 +161,22 @@ match color:
         print("look")
     case _:
         print("wrong color")
+
+
+
+
+
+
+
+
+
+#finite loop =>5
+
+
+i = 1  #iterator
+
+while(i <= 10):
+    print("hello world", i)
+    i += 1
+
+    print("after loop, i =", i)
