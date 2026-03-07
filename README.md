@@ -113,6 +113,23 @@ if n%2 == 0:
     print("The number is even")
 else:
     print("the number is odd")
+
+
+
+
+
+
+    #nesting
+username = input("Enter your username: ")
+password = input("enter your paassword:")
+
+if (username == "admin" and password == "pass"):
+  print("login ho gaya re")
+else:
+  if (username != "admin"):
+    print("wrong username")
+  else:
+   print("wrong password") 
     
 
     print("go")
