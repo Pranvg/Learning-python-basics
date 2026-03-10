@@ -200,3 +200,37 @@ while(i <= 10):
     i += 1
 
     print("after loop, i =", i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #multiplication table
+
+
+i = 1
+while i <= 10:
+    print(6 * i)
+    i += 1
+
+
+output:    
+6
+12
+118
+24
+30
+36
+42
+48
+54
+60
