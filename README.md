@@ -175,6 +175,26 @@ match color:
 
 i = 1  #iterator
 
+
+
+
+
+
+
+
+
+
+
+
+
+#finite loop =>5
+
+#reverse numbers
+i = 50
+while (i >= 1):
+    print(i)
+    i -= 1
+
 while(i <= 10):
     print("hello world", i)
     i += 1
