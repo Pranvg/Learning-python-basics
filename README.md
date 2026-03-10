@@ -234,3 +234,27 @@ output:
 48
 54
 60
+
+
+
+
+
+
+
+
+
+
+
+
+#multiplication table
+
+n = int(input("enter a number:"))
+
+i = 0
+while i<=n: # 0 to 9
+    print( n * (i+1))
+    i += 1
+
+
+
+    
