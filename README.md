@@ -256,5 +256,14 @@ while i<=n: # 0 to 9
     i += 1
 
 
+BREAK KEYWORD HOW TO USE IT
 
+i = 1
+ 
+while (i <= 10):
+   if (i % 6 == 0):
+     break
+   print(i)
+   i += 1  #updation
+print("outside loop now....")
     
