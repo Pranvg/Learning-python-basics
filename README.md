@@ -1,4 +1,27 @@
 
+
+
+P = int(input("Enter a Principle: "))
+R = int(input("Enter a Rate: "))
+T = int(input("Enter a Time: "))
+
+
+P = float(P)
+R = float(R)
+T = float(T)
+
+SI = ( (P * R * T)/100)
+
+print("Simple intrest: ", SI)
+
+
+
+
+
+
+
+
+
 Q6. Swap values of two numbers entered by the user
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
