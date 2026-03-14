@@ -1,1 +1,11 @@
+i = 0
+
+while i < 10:
+    i += 1  # Increment at the start so we don't get stuck
+    
+    if i % 3 == 0:
+        continue  # Skips the rest of the loop for multiples of 6
+        
+    print(i)
+
 
