@@ -1,0 +1,51 @@
+#Q1.
+
+
+ salary = int(input("enter salary: "))
+
+# if salary < 30000:
+#  print("5% is a bad ")
+
+# elif (salary > 30000 and salary < 70000):
+#  print("15%")
+
+# elif salary > 70000:
+#   print("25%")
+
+# else:
+#  print("chutiye")
+
+
+#Q2
+
+# a = int(input("Enter a digit: "))
+# b = int(input("Enter a digit: "))
+
+# i = a
+
+# while i <= b:
+#     if i % 2 == 0:
+#         print(i)
+
+
+#     i += 1
+ 
+
+#  #Q1. For a given number , print if it’s a multiple of 5 or not
+# num = int(input("enter a number: "))
+
+# if num % 5 == 0:
+#     print("multiple of 5")
+
+# else:
+#     print("it is not divisible of 5")
+
+
+# Q that factorial of a number 
+# n = int(input("enter n: "))
+
+# fact = 1 
+# for i in range (1, n+1):
+#  fact *= i
+
+# print("factorial = ", fact)
