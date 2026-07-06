@@ -56,3 +56,68 @@
 
 #n = int(input("enter n : "))
 #print(calc_factorial(n))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def count_digits(n):
+
+#     number_if_given_as_a_text = str(abs(n))
+
+
+#     return len(number_if_given_as_a_text )
+
+# print(count_digits(321))
+
+
+
+#Q Write a function to return the sum of digits of a number , n
+
+
+
+# def sum(n):
+
+#     total_sum = 0
+#     n = abs(n)
+
+
+#     while n > 0:
+#         last_digit = n % 10 
+#         total_sum += last_digit 
+
+#         n = n // 10 
+
+#     return total_sum 
+
+
+# print(sum(48976))
+
+
+
+n = int(input("Enter a number: "))
+total_sum = 0
+n = abs(n)
+
+while n > 0:
+    last_digit = n % 10
+    total_sum += last_digit
+
+    n = n // 10
+
+
+print("The sum of the digits is:", total_sum)
