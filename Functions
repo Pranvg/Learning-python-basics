@@ -174,3 +174,31 @@ def is_prime(n):
 
 
 print(is_prime(7))
+
+
+
+
+
+
+
+
+Q10 number guessing game
+
+
+
+a = int(input("Enter a number: "))
+
+x = 15
+
+if a > x:
+    print("Too high")
+
+elif a < x:
+    print("too low")
+
+elif a == x:
+  print("correct!")
+
+
+else:
+   print("invalid")
