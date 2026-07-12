@@ -132,5 +132,55 @@ print("sum =", sum )
 
 
 
+#slicing
+# marks = [99, 89, 100, 65, 92, "abc"]
+# marks.append(7)
+# print(marks)
+
+
+# marks = [99, 89, 100, 65, 92, "abc"]
+# marks.insert(12, 5)
+# print(marks)
+
+
+# nums = [1, 2, 3, 4]
+# nums.insert(2, 0)
+# print(nums)
+
+
+
+# nums.reverse()
+# print(nums)
+
+
+#LOOPS
+
+
+# nums = [1, 2, 3, 10, 4]
+
+# for val in nums:
+#       print(val)
+
+nums = [1, 2, 3, 10, 4]
+
+
+x = 10 
+i = 0
+for val in nums:
+    if(val == x):
+        print(f"{x}found at index={i}")
+        break
+    i += 1
+
+
+    #this is linear search
+
+    
+
+  
+
+
+
+
 
 
