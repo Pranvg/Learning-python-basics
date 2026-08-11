@@ -97,3 +97,19 @@ my_list = sum(list)
 print(my_list / len(list))
 
 
+
+
+
+
+
+
+list1 = [2, 4, 5, 8, 9, 7]
+list2 = [ 2, 3, 5, 6, 7, 8]
+
+l1 = list1 + list2
+
+l1.sort()
+print(l1)
+
+output [2, 2, 3, 4, 5, 5, 6, 7, 7, 8, 8, 9]
+
