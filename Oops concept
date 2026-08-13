@@ -7,3 +7,15 @@ stu1 = Student()
 stu2 = Student()
 print(stu1.subject, stu1.college, stu1.year)
 print(stu2.subject, stu2.college, stu2.year)
+
+
+
+
+
+class Student:
+   def __init__(self, name):
+     print("constructor was called")
+
+stu1 = Student("Rahul")
+stu2 = Student("Pranav")
+
