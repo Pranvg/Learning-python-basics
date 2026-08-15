@@ -73,3 +73,67 @@ stu2 = Student("Pranav Gurle", 8.18)
 print(f"the gpa of {stu2.gpa} is the name of student is our likely {stu2.name} ")
 print(Student.college_name)
 print(stu1.PI)   #instance has a higest priority than class and if we call it from specific name of class
+
+
+
+
+
+
+
+
+
+
+
+
+
+class CricketPlayer:
+
+    team_name = "india" 
+
+
+    def __init__(self, name, role, stamina, no):
+
+        self.name = name 
+        self.role = role
+        self.stamina = stamina
+        self.no = no
+
+    def play_shot(self):
+        self.stamina -= 10
+        print(f" {self.name} player has played a shot and now his stamina is {self.stamina} ")
+
+
+    @classmethod 
+    def change_team(cls, new_team):
+      cls.team_name = new_team
+      print(f"new team name is: {cls.team_name}")
+
+
+
+    @staticmethod
+    def calculate_run_rate(runs, overs):
+      run_rate = runs / overs
+      return f" the now run rate is {run_rate} "
+
+
+
+player1 = CricketPlayer("Virat", "Batsman", 100,  18) 
+player2 = CricketPlayer("Dhoni", "Batsman", 100, 7)
+
+
+print(f"{player1.name} is on team {player1.team_name}")
+print(f"{player2.name} is on the team{player2.team_name} an his jearsey no is {player2.no} ")
+
+
+player1.play_shot()
+
+print(f"{player1.name} is played a beutiful shot and now his stamina is {player1.stamina} and player 2 stamina is still not change")
+print("-" * 30)
+
+CricketPlayer.change_team("Royal Challengers Banglore")
+
+print(f" the {player1.name} is now in {player1.team_name}")
+
+
+
+print(CricketPlayer.calculate_run_rate( runs = 120, overs = 10  ))
