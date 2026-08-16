@@ -225,3 +225,46 @@ print(f"total products that created or added in our online store is: {OnlineStor
 
 
 
+
+
+
+class Employee:
+
+
+    def __init__(self, name, department, salary):
+        self.name = name      #public
+
+        self._department = department  #protected
+
+        self.__salary = salary #public
+
+    def get_salary(self):
+        return self.__salary
+
+
+    def set_salary(self, new_salary):
+
+        if new_salary > 0:
+            self.__salary = new_salary
+            print(f"Salary successfully updated to {self.__salary}")
+
+        else:
+            print("Error: salary cannot be negative!")
+
+
+
+emp1 = Employee("Pranav", "IT", 50000)
+
+print(emp1.name)
+
+print(emp1._department)
+
+print(f"Starting salary: {emp1.get_salary()}")
+
+emp1.set_salary(60000)
+
+    
+
+
+    
+    
