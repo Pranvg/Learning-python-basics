@@ -298,5 +298,43 @@ print(acc2._BankAccount__gg)
     
 
 
-    
+
+
+
+
+class Enemy:
+    def __init__(self, name, health):
+        self.name = name
+        self.health = health
+
+
+    def take_damage(self, damage):
+        self.health -= damage
+        print(f"the enemy of {self.name} has been taken the damage of {damage} and health is now is : {self.health} ")
+
+
+
+class Zombie(Enemy):
+
+    def __init__(self, name, health, infection_rate):
+
+        super().__init__(name, health)
+
+
+        self.infection_rate = infection_rate
+
+
+
+    def bite_player(self):
+
+        print(f"{self.name} lungs and bites infection chanc : {self.infection_rate} ")
+
+
+
+
+walker = Zombie(name="infected walker1", health=1000, infection_rate= 50)
+
+walker.bite_player()
+
+walker.take_damage(40)
     
