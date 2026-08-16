@@ -263,6 +263,38 @@ print(f"Starting salary: {emp1.get_salary()}")
 
 emp1.set_salary(60000)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+class BankAccount:
+    def __init__(self, name, balance, gg):
+        self.name = name #public
+        self._balance = balance #protected
+
+        self.__gg = gg
+
+    def get_gg(self):
+        return self.__gg
+
+
+acc2 = BankAccount("rahul", 10000, 24)
+
+
+print(acc2.name, acc2._balance, )
+
+print(acc2.get_gg())
+
+print(acc2._BankAccount__gg)
     
 
 
