@@ -384,4 +384,26 @@ print(staff1.role, staff1.start_time, staff1.end_time)
 
 #print(t1.subject, t1.start_time, t1.end_time)
 
-    
+
+
+
+class Teacher:
+    def __init__(self, salary):
+        self.salary = salary
+
+
+class Student:
+    def __init__(self, gpa):
+        self.gpa = gpa
+
+
+class TA(Teacher, Student):
+    def __init__(self, salary, gpa, name):
+
+        super().__init__(salary)
+        Student.__init__(self, gpa)
+        self.name = name
+
+ta1 = TA(50_000, 8.1, "pranav")
+
+print(ta1.salary, ta1.gpa, ta1.name)
