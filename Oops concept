@@ -477,3 +477,37 @@ fullemploy.calculate_salary()
 
 contractemployee = ContractEmployee()
 contractemployee.calculate_salary()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Teacher():
+    def get_designation(self):
+            print("designation = Teacher")
+
+
+class Accountant():
+    def get_designation(self):
+            print("designation = Teacher")
+
+
+t1 = Teacher()
+t1.get_designation()
+
+
+ac1 = Accountant()
+ac1.get_designation
