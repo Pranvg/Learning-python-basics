@@ -154,3 +154,27 @@ print(list1)
 
 
 
+class BankAccount:
+
+    def __init__(self, account_number, Owner_name, Balance):
+        self.account_number = account_number
+        self.Owner_name = Owner_name
+        self.Balance = Balance
+
+
+    def deposit(self, Damount):
+           self.Balance = self.Balance + Damount 
+           
+    def withdraw(self, Wamount):
+         self.Balance = self.Balance - Wamount
+
+    def checkbalance(self):
+         return self.Balance
+    
+acc1 = BankAccount(112, "Pranav", 40_000)
+
+print(f"acc1 has a name {acc1.account_number} the name of the owner is {acc1.Owner_name} and the balance is {acc1.Balance}")
+
+acc1.deposit(5000)
+acc1.withdraw(10000)
+print(f"the account{acc1.account_number} and owner is {acc1.Owner_name} Balance: {acc1.checkbalance()}")
