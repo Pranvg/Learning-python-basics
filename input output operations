@@ -39,3 +39,29 @@ with open("sample.txt", "r") as f:
        line += 1
 
 
+
+
+
+
+
+
+
+try:
+    x = int(input("enter x: "))
+    ans = 10/x
+
+except ZeroDivisionError:
+    print("Divide by zero not allowed")
+
+
+except ValueError:
+    print("value is false or wrong give numbers bro")
+
+
+else:
+    print(f"ans = {ans}")
+
+
+finally:
+    print("end of python program khatam tata bye bye")
+
