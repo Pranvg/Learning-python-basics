@@ -134,3 +134,27 @@ print(type(json_str), json_str)
 
 
 print(type(py_obj), py_obj)
+
+
+
+
+
+
+
+
+
+
+
+
+import json
+
+data = {
+    "age": 27,
+    "name":"pranav",
+    "isTeacher": True
+
+}
+
+with open("data.json", "w") as f:
+    json.dump(data, f, indent=4, sort_keys=True )
+    
