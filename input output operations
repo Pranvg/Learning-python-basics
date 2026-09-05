@@ -98,3 +98,39 @@ print(words)
 finally:
     print("end of python program khatam tata bye bye")
 
+
+
+
+import json
+
+
+json_str = '{"name": "pranav", "isTeacher": null}'
+
+py_obj = json.loads(json_str)
+
+
+
+
+
+
+
+import json
+
+
+py_obj = {
+
+    "name": "pranav",
+    "isTeacher": True
+    }
+
+json_str = json.dumps(py_obj)
+
+
+
+print(type(json_str), json_str)
+
+
+
+
+
+print(type(py_obj), py_obj)
