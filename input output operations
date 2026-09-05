@@ -157,4 +157,36 @@ data = {
 
 with open("data.json", "w") as f:
     json.dump(data, f, indent=4, sort_keys=True )
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+try:
+
+    f = open("data2.txt", "r")
+    content = f.read()
+    print(content)
+
+    f.close()
+
+except FileNotFoundError:
+    print("file not found")
+
+
+else:
+    print("data2.txt exists")
+
+
+finally:
+    print("File not found and this is last time gandu")
+
+
