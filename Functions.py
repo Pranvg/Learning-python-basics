@@ -1,63 +1,61 @@
-#def hello(): #function defination
-   # print("Hello khandu")
-    #print("Khandu gadu aahe")
+def hello(): #function defination
+    print("Hello khandu")
+    print("Khandu gadu aahe")
 
 
-#hello()
-#hello()
+hello()
+hello()
 
-#def sum(a, b): #parameters
-   # s = a + b
-   # return s
+def sum(a, b): #parameters
+    s = a + b
+    return s
 
 
 #call the function
 
-#ans= sum(5, 6)
-#print(ans)   # the values that i use is arguments
+ans= sum(5, 6)
+print(ans)   # the values that i use is arguments
 
 
  #or 
 
-#print(sum(5, 6))
-#print(sum(5, 2222))
+print(sum(5, 6))
+print(sum(5, 2222))
 
-#def avg(a, b, c):
- #   a = (a + b + c)/3
-  #  return a
+def avg(a, b, c):
+    a = (a + b + c)/3
+    return a
 
-#print(avg(4, 5, 8))
+print(avg(4, 5, 8))
 
 #or 
 
-#def cal_avg(a, b, c):
- #   sum = a + b + c
-  #  return sum/3
+def cal_avg(a, b, c):
+    sum = a + b + c
+    return sum/3
 
-#print(cal_avg(4, 5, 8))
+print(cal_avg(4, 5, 8))
 
-#def sum ( a, b = 1):
- #   s = a + b
-  #  return s
+def sum ( a, b = 1):
+    s = a + b
+    return s
 
 
-#print(sum(5))    
+print(sum(5))    
 
-#sum = lambda a, b : a+b
-#print(sum(4, 5))
+sum = lambda a, b : a+b
+print(sum(4, 5))
 
-#avg = lambda a, b, c: (a+b)/2*c
-#print(avg(4, 5, 6))
+avg = lambda a, b, c: (a+b)/2*c
+print(avg(4, 5, 6))
 
-#def calc_factorial(n):
-#    fact = 1
+def calc_factorial(n):
+    fact = 1
  ###
-    #return fact        
+    return fact        
 
-#n = int(input("enter n : "))
-#print(calc_factorial(n))
-
-
+n = int(input("enter n : "))
+print(calc_factorial(n))
 
 
 
@@ -75,37 +73,38 @@
 
 
 
-# def count_digits(n):
-
-#     number_if_given_as_a_text = str(abs(n))
 
 
-#     return len(number_if_given_as_a_text )
+def count_digits(n):
 
-# print(count_digits(321))
+     number_if_given_as_a_text = str(abs(n))
 
 
+     return len(number_if_given_as_a_text )
 
-#Q Write a function to return the sum of digits of a number , n
+ print(count_digits(321))
 
 
 
-# def sum(n):
-
-#     total_sum = 0
-#     n = abs(n)
+Q Write a function to return the sum of digits of a number , n
 
 
-#     while n > 0:
-#         last_digit = n % 10 
-#         total_sum += last_digit 
 
-#         n = n // 10 
+ def sum(n):
 
-#     return total_sum 
+     total_sum = 0
+     n = abs(n)
+
+     while n > 0:
+         last_digit = n % 10 
+         total_sum += last_digit 
+
+         n = n // 10 
+
+     return total_sum 
 
 
-# print(sum(48976))
+ print(sum(48976))
 
 
 
