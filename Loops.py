@@ -133,33 +133,32 @@ print("sum =", sum )
 
 
 #slicing
-# marks = [99, 89, 100, 65, 92, "abc"]
-# marks.append(7)
-# print(marks)
+ marks = [99, 89, 100, 65, 92, "abc"]
+ marks.append(7)
+ print(marks)
 
 
-# marks = [99, 89, 100, 65, 92, "abc"]
-# marks.insert(12, 5)
-# print(marks)
+ marks = [99, 89, 100, 65, 92, "abc"]
+ marks.insert(12, 5)
+ print(marks)
+
+ nums = [1, 2, 3, 4]
+ nums.insert(2, 0)
+ print(nums)
 
 
-# nums = [1, 2, 3, 4]
-# nums.insert(2, 0)
-# print(nums)
 
-
-
-# nums.reverse()
-# print(nums)
+ nums.reverse()
+ print(nums)
 
 
 #LOOPS
 
 
-# nums = [1, 2, 3, 10, 4]
+ nums = [1, 2, 3, 10, 4]
 
-# for val in nums:
-#       print(val)
+ for val in nums:
+       print(val)
 
 nums = [1, 2, 3, 10, 4]
 
@@ -206,11 +205,11 @@ for name, course in info:
     else :
         dict[name].add(course)
 print(dict)
-# uniq_course = set()
-# for tup in info:
-#     uniq_course.add(tup[1])#course
+ uniq_course = set()
+ for tup in info:
+     uniq_course.add(tup[1])#course
 
-# print(uniq_course)
+ print(uniq_course)
 
   
 
